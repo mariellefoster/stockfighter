@@ -43,10 +43,10 @@ async def handle_stockfighter(account, venue, socket_type):
 
 
 def main():
-    account = "CRS56578983"
-    venue = "SSIBEX"
-    api_key = {"X-Starfighter-Authorization":"ff7197c057a367638b78eb9888ef30a59446fb78"}
-    stock = "AWI"
+    account = "ACCOUNT#NUM"
+    venue = "TESTEX"
+    api_key = {"X-Starfighter-Authorization":"your key goes here"}
+    stock = "FOO"
 
     loop = asyncio.get_event_loop()
     tasks = [
